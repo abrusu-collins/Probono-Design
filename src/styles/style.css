@@ -14,7 +14,7 @@
 .formtitle {
   margin-top: 37.97px;
   font-size: 23px;
-  width: 65%;
+  width: 60%;
   margin: auto;
 }
 .formtitle .register {
@@ -26,7 +26,7 @@
 }
 
 form {
-  width: 80%;
+  width: 70%;
   margin: 39.27px auto 0 auto;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@ form .checkboxes div input[type=checkbox] {
 }
 form .textinputandsubmitbutton input {
   width: 500.59px;
-  height: 69.37px;
+  height: 59.37px;
   padding: 0 40px;
   border-radius: 71.92px;
   border: none;
@@ -59,8 +59,9 @@ form .textinputandsubmitbutton input[type=email] {
 form .textinputandsubmitbutton input[type=submit] {
   font-size: 22px;
   width: 390.53px;
-  height: 71.92px;
+  height: 61.92px;
   background: linear-gradient(90deg, #5bbb44 0.04%, #28a444 100.34%, rgba(40, 164, 68, 0) 104.13%, #28a444 104.13%, #28a444 104.13%);
+  color: #ffffff;
   border-radius: 41px;
   padding: 0;
 }

@@ -1,5 +1,5 @@
 form {
-  width: 80%;
+  width: 70%;
   margin: 39.27px auto 0 auto;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@ form {
   & .textinputandsubmitbutton {
     & input {
       width: 500.59px;
-      height: 69.37px;
+      height: 59.37px;
       padding: 0 40px;
       border-radius: 71.92px;
       border: none;
@@ -34,8 +34,9 @@ form {
     & input[type="submit"] {
       font-size: 22px;
       width: 390.53px;
-      height: 71.92px;
+      height: 61.92px;
       background: $green_gradient;
+      color:$white;
       border-radius: 41px;
       padding: 0;
     }
