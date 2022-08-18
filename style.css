@@ -1,37 +1,55 @@
-:root{
-    --green:#49B344;
-    --white: #ffffff;
-    --black: #000000;
-    --grey:#F0F2F6;
-    --green_gradient: linear-gradient(90deg, #5BBB44 0.04%, #28A444 100.34%, rgba(40, 164, 68, 0) 104.13%, #28A444 104.13%, #28A444 104.13%);
+:root {
+  --green: #49b344;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #f0f2f6;
+  --green_gradient: linear-gradient(
+    90deg,
+    #5bbb44 0.04%,
+    #28a444 100.34%,
+    rgba(40, 164, 68, 0) 104.13%,
+    #28a444 104.13%,
+    #28a444 104.13%
+  );
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /* input[type="checkbox"]{
     accent-color: var(--green);
     background-color:var(--white)
 } */
-form{
-    font-size: 18px;
+form {
+  font-size: 18px;
 }
-.registration{
-    font-weight: 500;
-    font-size: 23px;
+.registration {
+  font-weight: 500;
+  font-size: 23px;
 }
-.selection{
-    font-weight: 600;
-    font-size: 23px;
+.selection {
+  font-weight: 600;
+  font-size: 23px;
 }
- #cause_name, #email_address{
-    width:500.59px;
-    padding:1rem;
-    border-radius: 71.92px;
-    border: none;
-    background-color: var(--grey);
+#cause_name,
+#email_address {
+  width: 500.59px;
+  padding: 1rem;
+  border-radius: 71.92px;
+  border: none;
+  background-color: var(--grey);
+}
+
+#submit {
+  font-size: 22px;
+  width: 390.53px;
+  padding: 0.7rem;
+  background: var(--green_gradient);
+  color: var(--white);
+  border-radius: 41px;
+  border: none;
 }
