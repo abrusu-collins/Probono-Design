@@ -1,0 +1,11 @@
+:root{
+    --background:;
+    --green:#49B344;
+    --green_gradient: linear-gradient(90deg, #5BBB44 0.04%, #28A444 100.34%, rgba(40, 164, 68, 0) 104.13%, #28A444 104.13%, #28A444 104.13%);
+    --grey:#F0F2F6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
