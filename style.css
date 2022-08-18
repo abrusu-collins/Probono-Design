@@ -13,7 +13,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
-input[type="checkbox"]{
+/* input[type="checkbox"]{
     accent-color: var(--green);
-    color:
+    background-color:var(--white)
+} */
+form{
+    font-size: 18px;
+}
+.registration{
+    font-weight: 500;
+    font-size: 23px;
+}
+.selection{
+    font-weight: 600;
+    font-size: 23px;
+}
+ #cause_name, #email_address{
+    width:500.59px;
+    padding:1rem;
+    border-radius: 71.92px;
+    border: none;
+    background-color: var(--grey);
 }
