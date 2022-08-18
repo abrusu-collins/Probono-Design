@@ -1,36 +1,43 @@
 form {
-  margin-top: 10.31px;
+  width: 80%;
+  margin: 39.27px auto 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   font-size: 18px;
 
   & .checkboxes div {
     display: flex;
     align-items: center;
+    margin-bottom: 28px;
 
     & input[type="checkbox"] {
       width: 27.78px;
       height: 25.13px;
+      margin-right: 10.49px;
       accent-color: $green;
     }
   }
-  & .textinputandsubmitbutton{
-    & input  {
-        width: 500.59px;
-        height: 69.37px;
-        padding: 0 40px;
-        border-radius: 71.92px;
-        border:none;
-        background: $grey;
-      }
-      & input[type="submit"] {
-        font-size: 22px;
-        width: 390.53px;
-        height: 71.92px;
-        background: $green_gradient;
-        border-radius: 41px;
-        padding:0;
+  & .textinputandsubmitbutton {
+    & input {
+      width: 500.59px;
+      height: 69.37px;
+      padding: 0 40px;
+      border-radius: 71.92px;
+      border: none;
+      background: $grey;
+    }
+    & input[type="email"] {
+      margin-top: 50.03px;
+      margin-bottom: 71.22px;
+    }
+    & input[type="submit"] {
+      font-size: 22px;
+      width: 390.53px;
+      height: 71.92px;
+      background: $green_gradient;
+      border-radius: 41px;
+      padding: 0;
+    }
+  }
 }
-}
-}
-
