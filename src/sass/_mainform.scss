@@ -1,0 +1,36 @@
+form {
+  margin-top: 10.31px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+
+  & .checkboxes div {
+    display: flex;
+    align-items: center;
+
+    & input[type="checkbox"] {
+      width: 27.78px;
+      height: 25.13px;
+      accent-color: $green;
+    }
+  }
+  & .textinputandsubmitbutton{
+    & input  {
+        width: 500.59px;
+        height: 69.37px;
+        padding: 0 40px;
+        border-radius: 71.92px;
+        border:none;
+        background: $grey;
+      }
+      & input[type="submit"] {
+        font-size: 22px;
+        width: 390.53px;
+        height: 71.92px;
+        background: $green_gradient;
+        border-radius: 41px;
+        padding:0;
+}
+}
+}
+
