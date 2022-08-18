@@ -19,6 +19,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 .main-content {
   display: flex;
   flex-direction: column;
@@ -26,10 +27,11 @@
   align-items: center;
   justify-content: center;
 }
-/* input[type="checkbox"]{
-    accent-color: var(--green);
-    background-color:var(--white)
-} */
+
+input[type="checkbox"] {
+  accent-color: var(--green);
+}
+
 form {
   font-size: 18px;
   display: flex;
@@ -37,18 +39,39 @@ form {
   justify-content: space-between;
 }
 
-.left ,.right{
-  display: flex;
-  flex-direction: column;
+.left div {
+  margin-bottom: 30px;
 }
+
+.left div:last-of-type {
+  margin-bottom: 0;
+}
+
 .registration {
   font-weight: 500;
   font-size: 23px;
+  margin-bottom: 16px;
 }
+
 .selection {
   font-weight: 600;
   font-size: 23px;
 }
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right input[type="text"] {
+  margin-bottom: 70px;
+}
+
+.right input[type="email"] {
+  margin-bottom: 80px;
+}
+
+
 #cause_name,
 #email_address {
   width: 500.59px;
@@ -66,4 +89,8 @@ form {
   color: var(--white);
   border-radius: 41px;
   border: none;
+}
+
+#submit:hover{
+  cursor: pointer;
 }
