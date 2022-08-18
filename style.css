@@ -1,11 +1,19 @@
 :root{
-    --background:;
     --green:#49B344;
-    --green_gradient: linear-gradient(90deg, #5BBB44 0.04%, #28A444 100.34%, rgba(40, 164, 68, 0) 104.13%, #28A444 104.13%, #28A444 104.13%);
+    --white: #ffffff;
+    --black: #000000;
     --grey:#F0F2F6;
+    --green_gradient: linear-gradient(90deg, #5BBB44 0.04%, #28A444 100.34%, rgba(40, 164, 68, 0) 104.13%, #28A444 104.13%, #28A444 104.13%);
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="checkbox"]{
+    accent-color: var(--green);
+    color:
 }
