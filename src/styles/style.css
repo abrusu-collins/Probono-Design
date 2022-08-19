@@ -79,3 +79,48 @@ form .textinputandsubmitbutton input[type=submit] {
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 1280px) {
+  form {
+    width: 90%;
+  }
+  .formtitle {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  form {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%;
+  }
+  form .checkboxes div {
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 636px) {
+  .formtitle {
+    width: 95%;
+  }
+  form {
+    width: 95%;
+  }
+  form .textinputandsubmitbutton input {
+    width: 400.59px;
+    height: 49.37px;
+  }
+  form .textinputandsubmitbutton input[type=submit] {
+    width: 300.59px;
+    height: 51.37px;
+  }
+}
+@media screen and (max-width: 446px) {
+  form .textinputandsubmitbutton input {
+    width: 320.59px;
+    height: 49.37px;
+  }
+  form .textinputandsubmitbutton input[type=submit] {
+    width: 250.59px;
+    height: 51.37px;
+  }
+}
