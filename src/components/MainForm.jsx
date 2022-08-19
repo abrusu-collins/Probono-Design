@@ -1,7 +1,8 @@
+import MainFormCSS from "../styles/mainform.module.css";
 function MainForm() {
     return ( 
-        <form className="mainform">
-            <div className="checkboxes">
+        <form className={MainFormCSS.mainform}>
+            <div className={MainFormCSS.checkboxes}>
             <div>
                         <input type="checkbox" name="administration_and_strategy" id="administration_and_strategy"></input>
                         <label htmlFor="administration_and_strategy">ADMIISTRATION & STRATEGY</label>
@@ -28,7 +29,7 @@ function MainForm() {
                         <label htmlFor="all">ALL</label>
                     </div>
             </div>
-            <div className="textinputandsubmitbutton">
+            <div className= {MainFormCSS.textinputandsubmitbutton}>
                 <div>
                 <input type="text" name="cause_name" id="cause_name" placeholder="Cause Name"></input>
                 </div>
