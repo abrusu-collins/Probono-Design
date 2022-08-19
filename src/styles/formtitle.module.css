@@ -15,52 +15,46 @@
 }
 
 /* responsiveness */
-@media screen and (max-width:1480px) {
-  .formtitle{
+@media screen and (max-width: 1480px) {
+  .formtitle {
     width: 62%;
   }
 }
 
 @media screen and (max-width: 1342px) {
-  .formtitle{
-    width:69%;
+  .formtitle {
+    width: 69%;
   }
-  
 }
 
 @media screen and (max-width: 1164px) {
-  .formtitle{
-    width:79%;
+  .formtitle {
+    width: 79%;
   }
-  
 }
 
 @media screen and (max-width: 1164px) {
-  .formtitle{
-    width:79%;
+  .formtitle {
+    width: 79%;
   }
-  
 }
 
 @media screen and (max-width: 1011px) {
-  .formtitle{
-    width:89%;
+  .formtitle {
+    width: 89%;
   }
-  
 }
 
 @media screen and (max-width: 901px) {
-  .formtitle{
-    width:92%;
+  .formtitle {
+    width: 92%;
   }
-  
 }
 
 @media screen and (max-width: 844px) {
-  .formtitle{
-    width:100%;
+  .formtitle {
+    width: 100%;
     margin-top: 30px;
     text-align: center;
   }
-  
 }

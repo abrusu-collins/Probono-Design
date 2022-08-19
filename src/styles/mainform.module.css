@@ -17,7 +17,6 @@
   height: 25.13px;
   margin-right: 10.49px;
   accent-color: green;
-  
 }
 
 .textinputandsubmitbutton input {
@@ -31,7 +30,6 @@
 
 .textinputandsubmitbutton input[type="email"] {
   margin: 50.03px 0;
-
 }
 
 .textinputandsubmitbutton input[type="submit"] {
@@ -46,50 +44,41 @@
 
 /* responsiveness */
 @media screen and (max-width: 1342px) {
-  .mainform{
-    width:80%;
+  .mainform {
+    width: 80%;
   }
-  
 }
 @media screen and (max-width: 1164px) {
-  .mainform{
-    width:90%;
+  .mainform {
+    width: 90%;
   }
-  
 }
 
 @media screen and (max-width: 1011px) {
-  .mainform{
-    width:99%;
+  .mainform {
+    width: 99%;
   }
-  
 }
 
 @media screen and (max-width: 844px) {
-  .mainform{
+  .mainform {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
 }
 
 @media screen and (max-width: 517px) {
   .textinputandsubmitbutton input {
     width: 350.59px;
-    
   }
-  
 }
 
 @media screen and (max-width: 406px) {
   .textinputandsubmitbutton input {
     width: 260.59px;
-    
   }
   .textinputandsubmitbutton input[type="submit"] {
     width: 290.53px;
-    
   }
-  
 }
