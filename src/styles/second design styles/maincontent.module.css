@@ -17,7 +17,7 @@
   width: 120px;
   height: 120px;
   border-radius: 10px;
-  background-color: var(--green);
+  background: var(--green_gradient);
   margin: 0 40px;
 }
 .maincontent h1{
