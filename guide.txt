@@ -1,0 +1,5 @@
+SECOND DESIGN
+second design components are in src\components\second design components
+second design css modules are in src\styles\second design styles
+I intentionally made the background gray to differenciate it from the background, change it to white
+in popup.module.css.
