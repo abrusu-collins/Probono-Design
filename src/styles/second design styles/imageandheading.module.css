@@ -1,0 +1,19 @@
+.imageandheading {
+  font-size: 21px;
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  clear: right;
+
+  border-bottom: 2px solid red;
+}
+
+.imageandheading img {
+  width: 20%;
+}
+
+.heading {
+}
