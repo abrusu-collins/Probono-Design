@@ -42,6 +42,11 @@
   padding: 0;
 }
 
+.textinputandsubmitbutton input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+
 /* responsiveness */
 @media screen and (max-width: 1342px) {
   .mainform {
