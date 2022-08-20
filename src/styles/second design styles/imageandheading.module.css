@@ -1,7 +1,8 @@
 .imageandheading {
   font-size: 9px;
   width: 90%;
-  margin: auto;
+  margin:auto;
+  padding-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: space-around;

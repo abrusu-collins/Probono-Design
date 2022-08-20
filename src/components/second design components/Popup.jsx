@@ -9,7 +9,7 @@ function Popup() {
             <SettingsButton/>
             < ImageandHeading/>
             <MainContent/>
-            {/* <Footer/> */}
+            <Footer/>
       
         </div>
      );

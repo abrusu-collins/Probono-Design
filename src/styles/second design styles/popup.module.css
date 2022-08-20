@@ -2,7 +2,7 @@
   background-color: var(--grey);
   border-radius: 15px;
   width: 30%;
-  margin-top: 300px;
   margin: 300px auto;
+  overflow: hidden;
  
 }
