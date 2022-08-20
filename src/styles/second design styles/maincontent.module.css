@@ -1,3 +1,34 @@
-.maincontent {
-    
+.maincontent{
+    font-size: 12px;
+    margin-top: 50px;
+}
+.maincontent > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+
+}
+.maincontent div div {
+  display: grid;
+  grid-gap: .7rem;
+}
+.maincontent img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: var(--green);
+  margin: 0 40px;
+}
+.maincontent h1{
+    font-size:1rem;
+}
+.maincontent a {
+  display: block;
+  text-decoration: none;
+  color: var(--white);
+  background: var(--green_gradient);
+  padding: 10px 10px;
+  border-radius: 25px;
+  text-align: center;
 }

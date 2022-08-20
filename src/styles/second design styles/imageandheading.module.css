@@ -1,19 +1,14 @@
 .imageandheading {
-  font-size: 21px;
+  font-size: 9px;
   width: 90%;
   margin: auto;
-
   display: flex;
   align-items: center;
   justify-content: space-around;
   clear: right;
-
-  border-bottom: 2px solid red;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
 }
 
 .imageandheading img {
-  width: 20%;
-}
-
-.heading {
+  width: 30%;
 }

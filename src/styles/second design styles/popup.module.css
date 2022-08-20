@@ -1,10 +1,8 @@
-.popup{
-    background-color: var(--grey);
-    border-radius: 15px;
-    width:45%;
-    margin-top: 300px;
-    
-
-
-    margin:300px auto;
+.popup {
+  background-color: var(--grey);
+  border-radius: 15px;
+  width: 30%;
+  margin-top: 300px;
+  margin: 300px auto;
+ 
 }
